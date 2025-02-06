@@ -1,0 +1,58 @@
+body{
+    background:linear-gradient(135deg, #74ebd5, #acb6e5);
+    background-repeat:no-repeat;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.click{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.day{
+    font-size: 20px;
+    font-weight: bold;
+}
+.temp{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.weath{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.wind{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.city{
+    font-size: 20px;
+    font-weight: bold;
+   
+}
