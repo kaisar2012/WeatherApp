@@ -1,0 +1,59 @@
+.img{
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+    border-radius: 10px;    
+}
+body{
+    background-image:url('https://i.pinimg.com/736x/87/52/0d/87520d43179a97e0f7339dc47ba9a9c8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.div{
+    background-color: grey;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div2{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
+    justify-content:center;
+    padding: 50px;
+
+}
+section{
+    margin-top: 100px;
+}
+
+.recepi-cardDiv{
+    display: flex;
+    gap: 10px;
+}
+
+.recepi-card{
+    background-color: rgba(240, 248, 255, 0.614);
+    width: auto;
+    height: auto;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.recepi-card img{
+    width: 250px;
+    height: auto;
+}
