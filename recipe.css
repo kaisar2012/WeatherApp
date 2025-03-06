@@ -19,10 +19,11 @@ header{
     align-items: center;
 }
 .div2{
-    background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-image: url('https://i.pinimg.com/736x/87/52/0d/87520d43179a97e0f7339dc47ba9a9c8.jpg');
+    
 }
 .container{
     background-color: white;

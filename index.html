@@ -3,22 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="weather.css">
+    <title class="store">Tech Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Weather App</h1>
-        <form>
-            <input id="input" placeholder="Write the city"/>
-            <button class="click" id="btn">Get Weather</button>
-            <button class="click" id="mycity">My city</button>
-            <button class="click" id="kzCities">Kz cities</button>
-        </form>
-        <div class="weather-container">
-           
+    <header>
+        
+        <nav class="navbar">
+            <div class="logo"></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart" id="cart-link"> <span id="cart-count"></span></a></li>
+                <li class="auth-links">
+                    <a href="login.html" id="login-link" >Login</a>
+                    <span class="separator">/</span>
+                    <a href="login.html" id="signup-link">Sign Up</a>
+                </li>
+            </ul>
+            <button class="mobile-menu" aria-label="Menu">
+            
+            </button>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to LaptopSeeStore</h1>
+                <p>Discover the latest cost of Laptop</p>
+                <a href="#products" class="cta-button">See Now</a>
+            </div>
+        </section>
+
+        <section id="featured" class="featured">
+            <h2> Categories</h2>
+            <div class="category-grid">
+                <a href="/laptops.html">
+                    <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853" alt="Laptops">
+                    <h3>Laptops</h3>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <h2>Our Products</h2>
+            <div class="products-grid">
+
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhtJp5Zc90x75MI0gbNM5DF3JXpEbLUo_zPA&s" alt="">
+                    <p>Price 8000$</p>
+
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-CP6X99x7Q8xy0Vm5UlLhMoVKigesLEKBdA&s" alt="">
+                    <p>Price 9050$</p>
+                    
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP9sAUYgojbTJ4wcEDtXw99p6ujY86pfkksw&s" alt="">
+                    <p>Price 10000$</p>
+                    
+                </div>
+            </div>
+        </section>
+        
+        
+        <div id="login-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Login</h2>
+                <form id="login-form" class="auth-form">
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
         </div>
-    </div>
-    <script src="weather.js"></script>
+
+        <div id="signup-modal" class="modal">
+            <div class="modal-content">
+                <span class="close"></span>
+                <h2>Sign Up</h2>
+                <form id="signup-form" class="auth-form">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="cart-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="cart-header">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png" alt="Cart Icon" class="cart-icon">
+                    <h2>Your Cart</h2>
+                </div>
+                <div class="cart-empty">
+                    <img src="" alt="">
+
+                </div>
+                <div id="cart-items">
+                    
+                </div>
+                <div class="cart-total">
+                    <p>Total: $<span id="cart-total">0</span></p>
+                    <button id="checkout-btn">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Your trusted source for premium technology products.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: support@techstore.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/technologystoreTn" target="_blank">Facebook</a>
+                    <a href="https://www.youtube.com/results?search_query=technodom" target="_blank">Youtube</a>
+                    <a href="https://web.telegram.org/a/#-1001389399945" target="_blank">Telegram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p> @ 2025 TechStore. All rights reserved</p>
+        </div>
+    </footer>
+    
+
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+    
 </body>
 </html>

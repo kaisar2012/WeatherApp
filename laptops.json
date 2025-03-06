@@ -1,0 +1,356 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Ноутбук HP Pavilion",
+      "brand": "HP",
+      "price": 149900,
+      "description": "HP Pavilion 15 – қуатты және тиімді ноутбук, Intel Core i5 процессоры бар.",
+      "specifications": {
+        "processor": "Intel Core i5",
+        "ram": "8GB",
+        "storage": "512GB SSD",
+        "display": "15.6-inch Full HD",
+        "battery_life": "Up to 10 hours"
+      },
+      "image_url": "https://agroup.by/upload/Sh/imageCache/226/830/830080462593413.webp",
+      "category": "notebooks",
+      "stock": 25
+    },
+    {
+      "id": 2,
+      "name": "Apple MacBook Air",
+      "brand": "Apple",
+      "price": 359900,
+      "description": "Apple MacBook Air – стильді және жеңіл ноутбук, M1 чипі бар.",
+      "specifications": {
+        "processor": "Apple M1",
+        "ram": "8GB",
+        "storage": "256GB SSD",
+        "display": "13.3-inch Retina",
+        "battery_life": "Up to 15 hours"
+      },
+      "image_url": "https://s3s.alser.kz/uploads/products/noutbuki-premium/Ga9rJcbMG/noutbuk-apple-macbook-air-133-apple-chip-m18gbssd-256gbspace-greyiosmgn63ru.webp",
+      "category": "notebooks",
+      "stock": 15
+    },
+    {
+      "id": 3,
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "brand": "Lenovo",
+      "price": 239900,
+      "description": "Lenovo ThinkPad X1 Carbon – жеңіл және қуатты бизнес ноутбугы.",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "14-inch Full HD",
+        "battery_life": "Up to 12 hours"
+      },
+      "image_url": "https://avatars.mds.yandex.net/get-mpic/4362548/img_id7341170444549926669.jpeg/600x600",
+      "category": "notebooks",
+      "stock": 10
+    },
+    {
+      "id": 4,
+      "name": "Asus ZenBook 14",
+      "brand": "Asus",
+      "price": 179900,
+      "description": "Asus ZenBook 14 – жоғары сапалы, сәнді және ұзақ батарея өмірі бар ноутбук.",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "8GB",
+        "storage": "512GB SSD",
+        "display": "14-inch Full HD",
+        "battery_life": "Up to 13 hours"
+      },
+      "image_url": "https://avatars.mds.yandex.net/get-mpic/4409630/img_id5117584883230754213.jpeg/600x600",
+      "category": "notebooks",
+      "stock": 20
+    },
+    {
+      "id": 5,
+      "name": "Dell XPS 13",
+      "brand": "Dell",
+      "price": 209900,
+      "description": "Dell XPS 13 – өте тығыз дизайн және қуатты өнімділік.",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "13.3-inch Full HD",
+        "battery_life": "Up to 12 hours"
+      },
+      "image_url": "https://avatars.mds.yandex.net/get-mpic/4397559/img_id223835775125930027.jpeg/600x600",
+      "category": "notebooks",
+      "stock": 18
+    },
+    {
+      "id": 6,
+      "name": "Acer Aspire 5",
+      "brand": "Acer",
+      "price": 109900,
+      "description": "Acer Aspire 5 – бюджет ноутбук, күнделікті пайдалану үшін тамаша.",
+      "specifications": {
+        "processor": "Intel Core i5",
+        "ram": "8GB",
+        "storage": "512GB SSD",
+        "display": "15.6-inch Full HD",
+        "battery_life": "Up to 8 hours"
+      },
+      "image_url": "https://avatars.mds.yandex.net/get-mpic/4409630/img_id7987510980479480974.jpeg/600x600",
+      "category": "notebooks",
+      "stock": 30
+    },
+    {
+      "id": 7,
+      "name": "Microsoft Surface Laptop 4",
+      "brand": "Microsoft",
+      "price": 269900,
+      "description": "Microsoft Surface Laptop 4 – Windows жүйесінде жұмыс істейтін ең жоғары сапалы ноутбук.",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "13.5-inch PixelSense",
+        "battery_life": "Up to 11 hours"
+      },
+      "image_url": "https://avatars.mds.yandex.net/get-mpic/3986638/img_id1441774049169513021.png/600x600",
+      "category": "notebooks",
+      "stock": 8
+    },
+    {
+      "id": 8,
+      "name": "HP Envy x360",
+      "brand": "HP",
+      "price": 189900,
+      "description": "HP Envy x360 – түрлендіру функциясымен 2-1 ноутбук.",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "13.3-inch Full HD",
+        "battery_life": "Up to 10 hours"
+      },
+      "image_url": "https://avatars.mds.yandex.net/get-goods_pic/11379283/hat9d848900e74aa9f04ca05c8967d2d2ba/600x600",
+      "category": "notebooks",
+      "stock": 12
+    },
+    {
+      "id": 9,
+      "name": "Samsung Galaxy Book Pro",
+      "brand": "Samsung",
+      "price": 229900,
+      "description": "Samsung Galaxy Book Pro – ультратонкий және жылдам ноутбук.",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "13.3-inch AMOLED",
+        "battery_life": "Up to 12 hours"
+      },
+      "image_url": "https://i.ebayimg.com/images/g/Fe0AAOSw2HNifNcA/s-l500.jpg",
+      "category": "notebooks",
+      "stock": 7
+    },
+    {
+      "id": 10,
+      "name": "Razer Blade 15",
+      "brand": "Razer",
+      "price": 319900,
+      "description": "Razer Blade 15 – жоғары өнімділікке арналған ойын ноутбугы.",
+      "specifications": {
+        "processor": "Intel Core i9",
+        "ram": "32GB",
+        "storage": "1TB SSD",
+        "display": "15.6-inch Full HD",
+        "battery_life": "Up to 6 hours"
+      },
+      "image_url": "https://avatars.mds.yandex.net/get-mpic/1642819/img_id5020971672283602376.jpeg/600x600",
+      "category": "notebooks",
+      "stock": 5
+    },
+    {
+      "id": 11,
+      "name": "HP Spectre x360",
+      "brand": "HP",
+      "price": 249900,
+      "description": "HP Spectre x360 – стильді және қуатты ультрабук.",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "13.3-inch Full HD",
+        "battery_life": "Up to 12 hours"
+      },
+      "image_url": "",
+      "category": "notebooks",
+      "stock": 10
+    },
+    {
+      "id": 12,
+      "name": "Asus ROG Zephyrus G14",
+      "brand": "Asus",
+      "price": 269900,
+      "description": "Asus ROG Zephyrus G14 – күшті ойын ноутбугы.",
+      "specifications": {
+        "processor": "AMD Ryzen 9",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "14-inch Full HD",
+        "battery_life": "Up to 9 hours"
+      },
+      "image_url": "https://example.com/images/asus_rog_zephyrus_g14.jpg",
+      "category": "notebooks",
+      "stock": 8
+    },
+    {
+      "id": 13,
+      "name": "Acer Predator Helios 300",
+      "brand": "Acer",
+      "price": 289900,
+      "description": "Acer Predator Helios 300 – жоғары өнімді ойын ноутбуғы.",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "15.6-inch Full HD",
+        "battery_life": "Up to 8 hours"
+      },
+      "image_url": "https://example.com/images/acer_predator_helios_300.jpg",
+      "category": "notebooks",
+      "stock": 6
+    },
+    {
+      "id": 14,
+      "name": "Lenovo IdeaPad Flex 5",
+      "brand": "Lenovo",
+      "price": 149900,
+      "description": "Lenovo IdeaPad Flex 5 – 2-1 түрлендіру мүмкіндігі бар ноутбук.",
+      "specifications": {
+        "processor": "AMD Ryzen 7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "14-inch Full HD",
+        "battery_life": "Up to 10 hours"
+      },
+      "image_url": "https://example.com/images/lenovo_ideapad_flex_5.jpg",
+      "category": "notebooks",
+      "stock": 15
+    },
+    {
+      "id": 15,
+      "name": "MSI GF63 Thin",
+      "brand": "MSI",
+      "price": 179900,
+      "description": "MSI GF63 Thin – өнімді ойын ноутбугы.",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "8GB",
+        "storage": "512GB SSD",
+        "display": "15.6-inch Full HD",
+        "battery_life": "Up to 7 hours"
+      },
+      "image_url": "https://example.com/images/msi_gf63_thin.jpg",
+      "category": "notebooks",
+      "stock": 9
+    },
+    {
+      "id": 16,
+      "name": "HP Omen 15",
+      "brand": "HP",
+      "price": 239900,
+      "description": "HP Omen 15 – жоғары ойын өнімділігі мен стильді дизайн.",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "15.6-inch Full HD",
+        "battery_life": "Up to 8 hours"
+      },
+      "image_url": "https://example.com/images/hp_omen_15.jpg",
+      "category": "notebooks",
+      "stock": 7
+    },
+    {
+      "id": 17,
+      "name": "Apple MacBook Pro 13",
+      "brand": "Apple",
+      "price": 379900,
+      "description": "Apple MacBook Pro 13 – өнімділігі жоғары, портативті ноутбук.",
+      "specifications": {
+        "processor": "Apple M1",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "13.3-inch Retina",
+        "battery_life": "Up to 17 hours"
+      },
+      "image_url": "https://example.com/images/macbook_pro_13.jpg",
+      "category": "notebooks",
+      "stock": 4
+    },
+    {
+      "id": 18,
+      "name": "Dell Inspiron 15",
+      "brand": "Dell",
+      "price": 129900,
+      "description": "Dell Inspiron 15 – тамаша өнімділік пен стильдің үйлесімі.",
+      "specifications": {
+        "processor": "Intel Core i5",
+        "ram": "8GB",
+        "storage": "512GB SSD",
+        "display": "15.6-inch Full HD",
+        "battery_life": "Up to 9 hours"
+      },
+      "image_url": "https://example.com/images/dell_inspiron_15.jpg",
+      "category": "notebooks",
+      "stock": 13
+    },
+    {
+      "id": 19,
+      "name": "Samsung Notebook 9 Pro",
+      "brand": "Samsung",
+      "price": 249900,
+      "description": "Samsung Notebook 9 Pro – сәнді және жылдам ноутбук.",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "13.3-inch Full HD",
+        "battery_life": "Up to 10 hours"
+      },
+      "image_url": "https://example.com/images/samsung_notebook_9_pro.jpg",
+      "category": "notebooks",
+      "stock": 6
+    },
+    {
+      "id": 20,
+      "name": "Lenovo Legion 5 Pro",
+      "brand": "Lenovo",
+      "price": 269900,
+      "description": "Lenovo Legion 5 Pro – жоғары ойын өнімділігімен.",
+      "specifications": {
+        "processor": "AMD Ryzen 7",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "15.6-inch Full HD",
+        "battery_life": "Up to 7 hours"
+      },
+      "image_url": "https://example.com/images/lenovo_legion_5_pro.jpg",
+      "category": "notebooks",
+      "stock": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Ноутбуктер",
+      "slug": "notebooks"
+    },
+    {
+      "id": 2,
+      "name": "Кеңсе техникалары",
+      "slug": "office-equipment"
+    }
+  ]
+}
